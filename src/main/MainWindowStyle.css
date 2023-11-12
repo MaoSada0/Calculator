@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: #222;
+    -fx-background-radius: 28;
+}
+.mainPane{
+    -fx-background-color: linear-gradient(to bottom right, #893f45, #a25f2a);
+    -fx-background-radius: 15 15 25 25;
+}
+.highlight {
+    -fx-background-color: #00000025;
+    -fx-background-radius: 40;
+}
+
+.highlightUp {
+    -fx-background-color: #00000025;
+    -fx-background-radius: 25;
+    -fx-effect: dropshadow(gaussian, #200 , 0, 0, 0, 1);
+}
